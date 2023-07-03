@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    margin: 56px auto 0;
+    border: red solid 2px;
+    width: 1184px;
+    height: 52px;
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        background-color: red;
+    }  
+}

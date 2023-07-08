@@ -1,7 +1,7 @@
 .header {
     display: flex;
     margin: 0 auto 0;
-    border: red solid 2px;
+    border: red solid 0px;
     width: 1184px;
     height: 52px;
 }

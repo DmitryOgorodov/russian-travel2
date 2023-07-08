@@ -1,6 +1,7 @@
 .lead {
-    border: 2px solid blue;
+    border: 0x solid blue;
     margin: auto;
     height: 1005px;
     width: 984px;
+    margin: 56px auto 0;
 }

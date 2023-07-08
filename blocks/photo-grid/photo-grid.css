@@ -1,0 +1,7 @@
+.photo-grid {
+    max-width: 100%;
+    display: grid;
+    margin: 92px 48px 0;
+    grid-template-columns: repeat(auto-fill, minmax(284px, max-content));
+    gap: 16px;
+}

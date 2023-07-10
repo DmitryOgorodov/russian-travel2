@@ -1,0 +1,6 @@
+.place__site {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto 0 48px;
+}

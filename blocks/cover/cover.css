@@ -1,0 +1,7 @@
+.cover {
+    display: flex;
+    margin: 48px auto 48px;
+    width: 100%;
+    height: calc(100vw/(1280 / 740));
+    max-height: 750px;
+}

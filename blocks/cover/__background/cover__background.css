@@ -13,3 +13,19 @@
     position: relative;
     z-index: -2;
 }
+
+.cover__background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .cover__background:hover::after {
+    opacity: 0.8;
+  }

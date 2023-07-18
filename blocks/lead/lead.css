@@ -1,7 +1,14 @@
 .lead {
     border: 0x solid blue;
-    margin: auto;
-    height: 1005px;
-    width: 984px;
+    width: calc(100% / (1280 / 984));
+    min-width: 928px;
     margin: 56px auto 0;
+}
+
+
+@media (max-width: 1024px) {
+    .lead {
+        width: calc(100% / (1024 / 984));
+        min-width: 0;
+    }
 }

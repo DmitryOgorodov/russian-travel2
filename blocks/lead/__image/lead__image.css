@@ -1,8 +1,17 @@
 .lead__image {
     display: block;
-    width: 984px;
-    height: 615px;
+    width: 100%;
+    height: calc(100vw / (1440 / 615));
+    min-height: 580px;
     background-image: url(../../../images/lead-polka.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
     margin: 64px auto 8px;
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+        height: calc(100vw / (1024 / 580));
+        min-height: 0;
+    }
 }

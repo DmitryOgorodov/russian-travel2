@@ -1,19 +1,39 @@
 .page {
-    display: block;
-    margin: 28px 48px 24px;
     max-width: 1184px;
-    font-family: inter;;
+    margin: 28px auto 24px;
+    display: block;
+    /*padding: 28px 48px 24px;*/
+    font-family: inter;
+    border: 1px solid red;
+}
+/*
+@media screen and (max-width: 1024px) {
+    .page {
+        padding-left: calc(48px - (1024px - 100vw)/10.66);
+    }
+}
+*/
+
+@media screen and (max-width: 1280px) {
+    .page{
+        width: calc(1184px - (1280px - 100vw));
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .page {
         width: calc(928px - (1024px - 100vw) / 1.23);
-        margin: 28px auto 24px;
     }  
 }
 
 @media screen and (max-width: 768px) {
     .page {
-        width: calc(720px - (768px - 100%)/(448 / 432));
+        width: calc(720px - (768px - 100vw)/(448 / 432));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        margin-top: 16px;
     }
 }

@@ -1,7 +1,23 @@
 .cover__link {
     display: block;
     width: 100%;
+    height: 100%;
     position: relative;
     z-index: 0;
     text-decoration: none;
+}
+/*
+@media screen and (max-width: 1280px) {
+    .cover__link {
+        transform: translate(5px, 0px);
+        width: calc(100vw - 15px);
+        margin-left: calc(50% - 50vw);
+        height: calc(740px - (1280px - 100vw)/2.56);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        height: calc(640px - (1024px - 100vw)/1.6);
+    }
 }

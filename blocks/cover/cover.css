@@ -1,7 +1,22 @@
 .cover {
     display: flex;
-    margin: 48px auto 0;
+    margin: 92px auto 0;
     width: 100%;
-    height: calc(100vw/(1280 / 740));
-    max-height: 750px;
+    height: 740px;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        transform: translate(5px, 0px);
+        width: calc(100vw - 15px);
+        margin-left: calc(50% - 50vw);
+        height: calc(740px - (1280px - 100vw)/2.56);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: 66px;
+        height: calc(640px - (1024px - 100vw)/1.6);
+    }
 }

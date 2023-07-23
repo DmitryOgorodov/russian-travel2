@@ -8,3 +8,10 @@
     margin: 0;
     border: #fff solid 1px;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: calc(54px - (768px - 100vw)/20);
+        line-height: 109.375%;
+    }
+}

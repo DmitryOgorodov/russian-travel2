@@ -19,7 +19,6 @@
     .intro {
         width: 100%;
         height: auto;
-        font-size: calc(54px - (768px - 100vw)/20.36);
         margin-top: 88px;
     }
 }
